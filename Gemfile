@@ -8,9 +8,10 @@ gem 'rails', '3.0.9'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-#gem "locomotive_cms", :git => "git://github.com/locomotivecms/engine.git", :require=>"locomotive/engine"
-gem "locomotive_cms", :path=>"../engine", :require=>"locomotive/engine"
-gem 'railsbike_ext', :path=>"../railsbike_ext", :require => 'railsbike_ext'
+gem "locomotive_cms", :git => "git://github.com/locomotivecms/engine.git", :require=>"locomotive/engine"
+#gem "locomotive_cms", :path=>"../engine", :require=>"locomotive/engine"
+#gem 'railsbike_ext', :path=>"../railsbike_ext", :require => 'railsbike_ext'
+gem 'railsbike_ext', :git=>"git://github.com/AdvaMedia/RailsBikeExt.git", :require => 'railsbike_ext'
 # Use unicorn as the web server
 gem 'unicorn'
 
